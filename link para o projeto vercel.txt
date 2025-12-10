@@ -3,4 +3,7 @@ https://projetoppilol.vercel.app/login
 login: admin
 senha: 123
 
+
+n sei se precisa, mas o link do git está aqui se quiser checar algo: https://github.com/AleDerKaiser/projetoppilol
+
 te amo prof me dá 10 pra eu passar <3

@@ -2,14 +2,13 @@ import express from "express";
 import session from "express-session";
 import cookieParser from "cookie-parser";
 
-app.get("/", (req, res) => {
-    res.redirect("/login");
-});
-
 const app = express();
 const host = "0.0.0.0";
 const porta = 3000;
 
+app.get("/", (req, res) => {
+    res.redirect("/login");
+});
 
 app.use(express.urlencoded({ extended: true }));
 app.use(cookieParser());
